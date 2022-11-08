@@ -2426,13 +2426,14 @@ h3.heading::after {
   margin-left: auto; }
 
 .w3l-headers-9 .logo {
-  color: #fff;
+  color: rgb(231, 234, 238);
   font-size: 30px;
   line-height: 35px;
   font-weight: 600;
   padding: 5px 10px;
   display: inline-block;
-  text-transform: capitalize; }
+  text-transform: uppercase;
+  letter-spacing: 5px; }
 
 .w3l-headers-9 .logo span {
   text-transform: capitalize; }
@@ -2969,7 +2970,7 @@ h3.heading::after {
     font-size: 15px;
     color: #888;
     text-align: left;
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
     cursor: pointer;
     display: grid;
     grid-template-columns: .1fr 1fr;
@@ -7758,14 +7759,14 @@ table.w3_sub_contaiiner-footer {
 .w3l-contacts-5 .service-col-4 h4 a:hover {
   opacity: 0.85; }
 
-.w3l-contacts-5 .service-col-4 p {
+.w3l-contacts-5 .service-col p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 25px;
   color: var(--para-color);
   margin-top: 10px;
-  text-align: left; }
+  text-align: center; }
 
 .w3l-contacts-5 section.tab-content {
   display: none;
